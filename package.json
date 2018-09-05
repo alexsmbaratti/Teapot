@@ -1,0 +1,26 @@
+{
+  "name": "teapot",
+  "version": "1.0.0",
+  "description": "A teapot.",
+  "main": "brew_coffee.js",
+  "scripts": {
+    "test": "node brew_coffee.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexsmbaratti/teapot.git"
+  },
+  "keywords": [
+    "error",
+    "418"
+  ],
+  "author": "alexsmbaratti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexsmbaratti/teapot/issues"
+  },
+  "homepage": "https://github.com/alexsmbaratti/teapot#readme",
+  "dependencies": {
+    "is-root": "^2.0.0"
+  }
+}
