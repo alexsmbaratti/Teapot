@@ -16,6 +16,7 @@ var request = http.get(options, function(res) {
   res.on('end', function() {
     if (!isRoot()) {
       console.log("\x1b[31m", "");
+      console.log("-- ERROR --");
       console.log("Status Code: 418 -- I am a teapot.");
       console.log("Any attempt to brew coffee with a teapot should result in the error code \"418 I'm a teapot\". The resulting entity body MAY be short and stout.");
       console.log("\x1b[33m");
