@@ -12,3 +12,8 @@ For those who don't know, there's a clever little HTTP response code specificall
 
 ## Why did you waste any amount of life force on this?
 I got bored, and I wanted to test console.log() formatting. Hence, the pretty colors.
+
+## What does running as root do?
+Running as root will allow Teapot to spontaneously output coffee. 
+
+![Running teapot from the command line as root](https://github.com/alexsmbaratti/Teapot/blob/master/misc/sudo_teapot.png?raw=true)
