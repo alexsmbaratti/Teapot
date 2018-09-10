@@ -6,4 +6,4 @@ jobs:
     - stage: brew
       script: node brew_coffee.js
     - stage: brew root
-      script: sudo node brew_coffee.js
+      script: sudo /usr/bin/node brew_coffee.js
