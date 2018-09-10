@@ -5,5 +5,5 @@ jobs:
   include:
     - stage: brew
       script: node brew_coffee.js
-    - stage: brew root
-      script: sudo /usr/bin/node brew_coffee.js
+    - stage: brew with root
+      script: sudo npm test
