@@ -42,5 +42,6 @@ request.on('error', function(e) {
     console.log(e.message);
     console.log("\x1b[0m");
   }
+  process.exit(1);
 });
 request.end();
