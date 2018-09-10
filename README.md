@@ -1,4 +1,5 @@
 # Teapot
+[![Build Status](https://travis-ci.org/alexsmbaratti/Teapot.svg?branch=master)](https://travis-ci.org/alexsmbaratti/Teapot)
 A teapot stored on GitHub. Let's brew some coffee with it.
 
 ## Usage
