@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "iojs"
+  - "7"
+jobs:
+  include:
+    - stage: brew
+      script: node brew_coffee.js
+    - stage: sudo_brew
+      script: sudo node brew_coffee.js
