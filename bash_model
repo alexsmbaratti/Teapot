@@ -1,0 +1,4 @@
+#!/bin/bash
+node ./brew_coffee.js
+
+# Rename this file to teapot and use `chmod u+x teapot` to make it executable
