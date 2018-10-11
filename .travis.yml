@@ -5,3 +5,5 @@ jobs:
   include:
     - stage: brew
       script: node brew_coffee.js
+    - stage: sudo
+      script: sudo node brew_coffee.js
