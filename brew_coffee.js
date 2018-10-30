@@ -26,7 +26,11 @@ var request = http.get(options, function(res) {
       console.log("Status Code: 200 -- OK");
       console.log("Against all odds, the teapot brewed coffee.\n");
       console.log("OUTPUT:");
-      console.log("☕️\n");
+      const s = 1/Math.random()/Math.random()
+      let ሴ = ''
+      for(let c = 0; c < s; c++)
+        ሴ += '☕️'
+      console.log(ሴ + "\n");
     }
   });
 });
